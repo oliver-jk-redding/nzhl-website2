@@ -1,7 +1,6 @@
-
 # nzhl-website
 
-Communite website for New Zealand Hobbit League
+Community website for New Zealand Hobbit League
 
 ## how
 
@@ -9,7 +8,7 @@ Communite website for New Zealand Hobbit League
 
 ```
 git clone https://github.com/oliver.jk.redding/nzhl-website
-cd 
+cd
 npm install
 ```
 
@@ -32,3 +31,4 @@ npm test
 ```
 npm run deploy
 ```
+# nzhl-website2
