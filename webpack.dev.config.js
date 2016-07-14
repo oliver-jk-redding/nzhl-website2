@@ -47,7 +47,8 @@ module.exports = {
         loader: 'react-hot!babel',
         exclude: /node_modules/ },
       { test: /\.png$/,
-        loader: 'file' },
+        loader: 'file',
+        include: path.join(__dirname, 'public', 'images') },
       { test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
         loader: 'file' }
     ]
